@@ -14,6 +14,5 @@ COPY --from=build /app/target/facebookapi-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
-The standard way to run the JAR file
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
